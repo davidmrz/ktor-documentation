@@ -25,7 +25,7 @@ kotlin {
     sourceSets {
         commonMain.dependencies {
             // put your Multiplatform dependencies here
-            implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.1")
+            implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0")
         }
     }
 }

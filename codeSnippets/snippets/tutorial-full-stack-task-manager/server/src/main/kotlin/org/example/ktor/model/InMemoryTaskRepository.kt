@@ -1,3 +1,5 @@
+package org.example.ktor.model
+
 class InMemoryTaskRepository : TaskRepository {
     private var tasks = listOf(
         Task("Cleaning", "Clean the house", Priority.Low),

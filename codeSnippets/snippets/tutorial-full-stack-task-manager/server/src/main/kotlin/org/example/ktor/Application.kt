@@ -1,7 +1,8 @@
 package org.example.ktor
 
-import InMemoryTaskRepository
-import Task
+import org.example.ktor.model.InMemoryTaskRepository
+import org.example.ktor.model.Task
+import org.example.ktor.model.Priority
 import io.ktor.http.HttpStatusCode
 import io.ktor.serialization.JsonConvertException
 import io.ktor.serialization.kotlinx.json.json

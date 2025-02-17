@@ -1,3 +1,5 @@
+package org.example.ktor.model
+
 import kotlinx.serialization.Serializable
 
 enum class Priority {
